@@ -9,9 +9,9 @@ I developed tetris game on my own using windows library and C++
 Download the project and add the header/source to a Microsoft Visual Studio project . 
 
 Hotkeys : 
- # 'Down arrow' to go down faster
- # 'Left arrow'/'Right arrow to go left/right  
- # 'Space' to restart the game
+ - 'Down arrow' to go down faster
+ - 'Left arrow'/'Right arrow to go left/right  
+ - 'Space' to restart the game
 
 
 ## Note
