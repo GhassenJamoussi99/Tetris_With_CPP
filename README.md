@@ -1,6 +1,6 @@
 # Tetris_With_CPP
 
-I developed tetris game on my own using windows library and C++
+I developed tetris on my own using windows library and C++
 
 ## Created by :
  Ghassen Jamoussi
