@@ -201,9 +201,9 @@ protected:
 				bHasLanded4 = m_bufScreen[(int)(y_Bar + 4) * ScreenWidth() + x_Bar].Char.UnicodeChar != L' ' && x_Bar != 27 && x_Bar != 5;
 			}
 
-			if (m_keys[VK_UP].bPressed)
-			{
-				up_released = rand() % 4;
+			if (m_keys[VK_UP].bPressed && up_released != 3)
+			{ 
+				up_released = rand() % 3;
 			}
 
 			if (!gameOver)
@@ -371,7 +371,7 @@ protected:
 			if (max_line < count_line)max_line = count_line;
 
 			DrawString(40, 1, L" CurrentScore : " + std::to_wstring(count_line) +  L"  High Score : " + std::to_wstring(max_line));
-			DrawString(40, 45, L" Created by G.J ©" );
+			DrawString(40, 45, L" Created by G.J Â©" );
 				
 			
 			y_Bar += fVelocity * fElapsedTime;
