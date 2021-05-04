@@ -10,7 +10,7 @@ Download the project and add the header/source to a Microsoft Visual Studio proj
 
 Hotkeys : 
  - 'Down arrow' to go down faster
- - 'Left /'Right arrow' to go left/right  
+ - 'Left/Right' arrow to go left/right  
  - 'Space' bar to restart the game after losing
 
 
